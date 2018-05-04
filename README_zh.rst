@@ -103,7 +103,7 @@ Pimple是一个简单的PHP依赖注入容器(Dependency Injection Container)。
     $container['cookie_name'] = 'SESSION_ID';
     $container['session_storage_class'] = 'SessionStorage';
 
-如果您需要更改``session_storage``服务定义可以参考下面代码：
+如果您需要更改 ``session_storage`` 服务定义可以参考下面代码：
 
 .. code-block:: php
 
